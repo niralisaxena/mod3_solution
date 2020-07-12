@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #61122f;
+	color: #fff;
+}
+
+#header-nav{
+	background-color:#f6b319;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-brand a{
+	font-size: 40px;
+	text-shadow: 1px 2px white;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	text-align: center;
+	font-size: 25px;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+.jumbotron{
+	border: 2px solid #3F0C1F;
+	box-shadow: 25px 25px 50px #3F0C1F;
+}
+
+.jumbotron h2{
+	color: black;
+	text-align: center;
+}
+
+.jumbotron h3{
+	text-align: center;
+}
+
+#chicken, #beef, #sushi{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: auto;
+}
+
+#chicken:hover, #beef:hover, #sushi:hover{
+	box-shadow: 5px 5px 5px 5px #CCCCCC;
+}
+
+#chicken p, #beef p, #sushi p{
+	color: black;
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+@media (min-width: 992px){
+	#header-nav{
+		height:70px;
+		padding-top: 10px;
+	}
+
+	#chicken, #beef, #sushi{
+		height: 400px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#header-nav{
+		height:70px;
+		padding-top: 10px;
+	}
+
+	#chicken, #beef, #sushi{
+		height: 275px;
+	}
+}
+
+@media (max-width: 767px){
+	
+}
